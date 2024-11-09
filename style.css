@@ -1,0 +1,90 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #212f3c
+}
+
+/* Container Styling */
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #2e86c1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Form Title Styling */
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form Control Styling */
+.form-control {
+  margin-bottom: 20px;
+}
+
+/* Label Styling */
+.form-control label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Input Styling */
+.form-control input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #abebc6;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+/* Input Focus Styling */
+.form-control input:focus {
+  border-color: #5a67d8; /* Light blue color */
+  outline: none;
+}
+
+/* Error Message Styling */
+.form-control span {
+  display: block;
+  font-size: 14px;
+  margin-top: 5px;
+  color: red;
+}
+
+/* Button Styling */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #03030b; /* Light blue color */
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button Hover Effect */
+button:hover {
+  background-color: #4c51bf; /* Darker blue */
+}
