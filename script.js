@@ -17,16 +17,22 @@ form.addEventListener('submit',(e)=>{
   if(name.value === '' || name.value==null){
     e.preventDefault();
     name_error.innerHTML = "Name is required";
+  }else{
+    name_error.innerHTML = "";
   }
 
   if(!email.value.match(emailCkeck)){
     e.preventDefault();
     email_error.innerHTML = "Valid Email is required";
+  }else{
+    email_error.innerHTML = "";
   }
 
   if(password.value.length <= 5){
     e.preventDefault();
     password_error.innerHTML = "Password must be more than 6 characters";
+  }else{
+    password_error.innerHTML = "";
   }
 
   if(password.value.length >= 20){
